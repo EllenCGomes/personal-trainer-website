@@ -1,4 +1,3 @@
-import React from "react";
 import { ConfigProvider } from "antd";
 import ptBRIntl from "antd/es/locale/pt_BR";
 import { StrictMode } from "react";
@@ -11,13 +10,8 @@ const themeConfig = {
   token: {
     colorTextBase: "rgba(0, 0, 0, 0.85)",
     fontFamily: `'Open Sans', sans-serif`,
-    // colorPrimary: '#AD974F',
-    // colorPrimary: "#8E793E",
-    // colorPrimary: "#E4B04A",
-    // colorPrimary: "#d1b66b",
     colorPrimary: "#e9d6ac",
     colorLink: "#ffffff",
-    // colorLinkHover: "#EACC61",
     colorLinkHover: "#e9d6ac",
     colorInfo: "#e9d6ac",
     colorInfoBg: "#fcf0ff",
@@ -25,7 +19,6 @@ const themeConfig = {
   },
   components: {
     Layout: {
-      // headerPadding: 0,
       headerHeight: 64,
       headerBg: "#fffff",
     },

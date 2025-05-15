@@ -13,10 +13,9 @@ import {
   Layout,
   Menu,
   Row,
-  theme,
   Typography,
 } from "antd";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import about from "./assets/about.jpg";
 import cover from "./assets/cover.jpg";
@@ -42,8 +41,6 @@ const items = [
     label: "CONTATO",
   },
 ];
-
-const footerHeight = 120;
 
 export const App = () => {
   const [isScrolled, setIsScrolled] = useState(false);
